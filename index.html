@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>thegioididong</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <SCRIPT LANGUAGE="Javascript">
+        $(document).ready(function () {
+            $("a[href*='#']:not([href='#])").click(function () {
+                let target = $(this).attr("href");
+                $('html,body').stop().animate({
+                    scrollTop: $(target).offset().top
+                }, 1000);
+                event.preventDefault();
+            });
+        });
+    </SCRIPT>
+
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style type='text/css'>
+    #bttop {
+        background: gold;
+        text-align: center;
+        padding: 15px;
+        position: fixed;
+        bottom: 35px;
+        right: 10px;
+        cursor: pointer;
+        display: none;
+        color: black;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    #bttop:hover {
+        border: 1px solid #ffa789;
+        background: #ff6734;
+    }
+</style>
+<div id='bttop'>▲</div>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js' type='text/javascript'></script>
+<script type='text/javascript'>
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() != 0) {
+                $('#bttop').fadeIn();
+            } else {
+                $('#bttop').fadeOut();
+            }
+        });
+        $('#bttop').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+        });
+    });
+</script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<body>
+    <section class="dautrang">
+        <div class="logo">
+            <a href="index.html"><img src="image/logo.png" alt="">
+            </a>
+        </div>
+        <form>
+            <input type="search" placeholder="Tìm kiếm sản phẩm">
+        </form>
+        <p class="giohang"><i class="fas fa-shopping-basket"></i><a href="giohang.html"> Giỏ hàng</a> </p>
+
+    </section>
+    <header>
+        <marquee behavior="scroll" direction="right">
+            <p style="color: orange; font-size: 80; padding: 10px;"><b><i><q>Chào mừng bạn đến với của hàng THẾ GIỚI DI
+                            ĐỘNG</q></i></b></p>
+        </marquee>
+        <script type="text/javascript" src="slide.js"></script>
+    </header>
+    <!-- phần menu -->
+    <section class="header">
+        <ul align="">
+            <li><a href="index.html">TRANG CHỦ</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">
+                    DANH MỤC SẢN PHẨM ▼</a>
+                <div class="dropdown-content">
+                    <a href="oplung.html">ỐP LƯNG</a>
+                    <a href="kinhcuongluc.html">KÍNH CƯỜNG LỰC</a>
+                    <a href="cusaccapsac.html">CỦ SẠC - CÁP SẠC</a>
+                    <a href="sacduphong.html">SẠC DỰ PHÒNG</a>
+                    <a href="tainghe.html">TAI NGHE</a>
+                    <a href="loabluetooth.html">LOA BLUETOOTH</a>
+                </div>
+            </li>
+            <li>
+                <a href="chinhsachbaohanh.html">CHÍNH SÁCH BẢO HÀNH</a>
+            </li>
+            <li>
+                <a href="thongtincuahang.html">THÔNG TIN CỬA HÀNG</a>
+            </li>
+            <li>
+                <a href="lienhe.html">LIÊN HỆ</a>
+            </li>
+            <li>
+                <a href="dangky.html">ĐĂNG KÝ</a>
+            </li>
+            <li>
+                <a href="dangnhap.html">ĐĂNG NHẬP</a>
+            </li>
+
+        </ul>
+    </section>
+
+    <div class="banner">
+        <img src="image/banner (1).jpg" alt="">
+    </div>
+
+
+
+
+
+    <div class="sanphammoi">
+        <p>SẢN PHẨM MỚI</p>
+
+    </div>
+    <section class="cacsanpham">
+        <div class="sanpham">
+            <div align="center">
+                <a href="tainghe1.html">
+                    <img src="image/sanpham/tainghe1.jpg" alt="">
+                </a>
+            </div>
+            <h3>Tai nghe chụp tai Bluetooth AirPods Max Apple MGYH3</h3>
+            <p>Giá : 13.290.000 VNĐ</p>
+        </div>
+        <div class="sanpham">
+            <a href="kcl1.html">
+                <div align="center">
+                    <img src="image/sanpham/kcl1.jpg" alt="">
+            </a>
+        </div>
+        <h3>KÍNH CƯỜNG LỰC IPHONE XS MAX JCPAL</h3>
+        <p>Giá : 390.000 VNĐ </p>
+        </div>
+        <div class="sanpham">
+            <a href="sac2.html">
+                <div align="center">
+                    <img src="image/sanpham/cusac1.jpg" alt="">
+            </a>
+        </div>
+        <h3>ADAPTER SẠC 85W APPLE MACBOOK PRO MC556 TRẮNG </h3>
+        <p>Giá : 2.490.000 VNĐ</p>
+        </div>
+        <div class="sanpham">
+            <a href="sdp1.html">
+                <div align="center">
+                    <img src="image/sanpham/sacduphong1.png" alt="">
+            </a>
+        </div>
+        <h3>PIN SẠC DỰ PHÒNG POLYMER 20.000 MAH TYPE C ANKER POWERCORE METRO ESSENTIAL A1268</h3>
+        <p>Giá : 1.180.000 VNĐ</p>
+        </div>
+    </section>
+
+
+
+
+    </div>
+
+    <div class="sanphammoi">
+        <p>ỐP LƯNG</p>
+        <section class="cacsanpham">
+            <div class="sanpham">
+                <a href="oplung1.html">
+                    <div align="center">
+                        <img src="image/sanpham/oplung1.png" alt="">
+                </a>
+            </div>
+            <h3>Ốp lưng Galaxy A20s Nhựa dẻo UV Printing MEEKER TSKA828 Vịt xanh</h3>
+            <p>Giá : 309.000VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <div align="center">
+            <a href="oplung2.html">
+                <img src="image/sanpham/oplung2.jpg" alt=""></a>
+        </div>
+        <h3>Ốp lưng Galaxy A20s Nhựa dẻo UV printing OSMIA Khủng long Xanh lá</h3>
+        <p>Giá : 290.000 VNĐ </p>
+    </div>
+    <div class="sanpham">
+        <div align="center">
+            <a href="oplung3.html">
+                <img src="image/sanpham/oplung3.jpg" alt=""></a>
+        </div>
+        <h3>Ốp lưng Galaxy A10s Nhựa dẻo UV printing OSMIA CKA922 Đào Hồng</h3>
+        <p>Giá : 170.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <div align="center">
+            <a href="oplung4.html">
+                <img src="image/sanpham/oplung4.jpg" alt=""></a>
+        </div>
+        <h3>Ốp lưng Galaxy A02S Nhựa dẻo Line II JM TPU JM Đỏ</h3>
+        <p>Giá : 120.000 VNĐ</p>
+    </div>
+
+    </div>
+
+    <div class="sanphammoi">
+        <p>KÍNH CƯỜNG LỰC</p>
+        <section class="cacsanpham">
+            <div class="sanpham">
+                <a href="kcl1.html">
+                    <div align="center">
+                        <img src="image/sanpham/kcl1.jpg" alt="">
+                </a>
+            </div>
+            <h3>Kính cường lực iPhone Xs Max JCPAL</h3>
+            <p>Giá : 390.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="kcl2.html">
+            <div align="center">
+                <img src="image/sanpham/kcl2.png" alt="">
+        </a>
+    </div>
+    <h3>Kính Cường Lực iPhone 12 Mini JCPAL</h3>
+    <p>Giá : 590.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <div align="center">
+            <a href="kcl3.html">
+                <img src="image/sanpham/kcl3.jpg" alt=" "></a>
+        </div>
+        <h3>Kính cường lực iPhone 12 Pro Max JCPAL</h3>
+        <p>Giá : 490.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <div align="center">
+            <a href="kcl4.html">
+                <img src="image/sanpham/kcl4.png" alt=" "></a>
+        </div>
+        <h3>KÍNH CƯỜNG LỰC full màn hình iPhone Xr/ iPhone 11 GSP-116</h3>
+        <p>Giá : 150.000 VNĐ</p>
+    </div>
+    </div>
+
+
+
+
+    <div class="sanphammoi">
+        <p>CỦ SẠC - CÁP SẠC</p>
+        <section class="cacsanpham">
+            <div class="sanpham">
+                <a href="sac1.html">
+                    <div align="center">
+                        <img src="image/sanpham/sac1.jpg" alt="">
+                </a>
+            </div>
+            <h3>Adapter Sạc Type-C 61W Apple Macbook MRW22 Trắng</h3>
+            <p>Giá : 2.290.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <div align="center">
+            <a href="sac2.html">
+                <img src="image/sanpham/cusac1.jpg" alt=""></a>
+        </div>
+        <h3>Adapter Sạc 85W Apple Macbook Pro MC556 Trắng</h3>
+        <p>Giá : 2.490.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <div align="center">
+            <a href="sac3.html">
+                <img src="image/sanpham/capsac1.jpg" alt=""></a>
+        </div>
+        <h3>Cáp Lightning MFI 1.2 m AUKEY CB-AL1 Đen</h3>
+        <p>Giá : 359.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <div align="center">
+            <a href="sac4.html">
+                <img src="image/sanpham/capsac2.jpg" alt=""></a>
+        </div>
+        <h3>Cáp Type C- Lightning 1m Apple MX0K2 Trắng</h3>
+        <p>Giá : 590.000 VNĐ</p>
+    </div>
+    </div>
+
+
+    <div class="sanphammoi">
+        <p>SẠC DỰ PHÒNG</p>
+        <section class="cacsanpham">
+            <div class="sanpham">
+                <a href="sdp1.html">
+                    <div align="center">
+                        <img src="image/sanpham/sacduphong1.png" alt="">
+                </a>
+            </div>
+            <h3>Pin sạc dự phòng Polymer 20.000 mAh Type C Anker PowerCore Metro Essential A1268</h3>
+            <p>Giá : 1.180.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="sdp2.html">
+            <div align="center">
+                <img src="image/sanpham/sacduphong2.jpg" alt="">
+        </a>
+    </div>
+    <h3>Pin sạc dự phòng Polymer 10.000 mAh Type C Xiaomi Power Bank 3 Ultra Compact </h3>
+    <p>Giá : 790.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="sdp3.html">
+            <div align="center">
+                <img src="image/sanpham/sacduphong3.jpg" alt="">
+        </a>
+    </div>
+    <h3>Pin sạc dự phòng Polymer 15.000 mAh Type C PD QC3.0 Xmobile PowerBox P72D</h3>
+    <p>Giá : 820.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="sdp4.html">
+            <div align="center">
+                <img src="image/sanpham/sacduphong4.jpg" alt="">
+        </a>
+    </div>
+    <h3>Pin sạc dự phòng 7.500 mAh AVA Cat 3S </h3>
+    <p>Giá : 690.000 VNĐ</p>
+    </div>
+    </div>
+
+
+
+    <div class="sanphammoi">
+        <p>TAI NGHE</p>
+        <section class="cacsanpham">
+            <div class="sanpham">
+                <a href="tainghe1.html">
+                    <div align="center">
+
+                        <img src="image/sanpham/tainghe1.jpg" alt="">
+                </a>
+            </div>
+            <h3>Tai nghe chụp tai Bluetooth AirPods Max Apple MGYH3</h3>
+            <p>Giá : 13.290.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="tainghe2.html">
+            <div align="center">
+                <img src="image/sanpham/tkd2.png" alt="">
+        </a>
+    </div>
+    <h3>Tai nghe chụp tai Gaming JBL QUANTUM 100 </h3>
+    <p>Giá : 891.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="tainghe3.html">
+            <div align="center">
+                <img src="image/sanpham/tkd1.png" alt="">
+        </a>
+    </div>
+    <h3>Tai nghe Bluetooth True Wireless JBL LIVE PRO </h3>
+    <p>Giá : 2.691.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="tainghe4.html">
+            <div align="center">
+                <img src="image/sanpham/tainghe4.jpg" alt="">
+        </a>
+    </div>
+    <h3>Tai nghe Bluetooth AirPods 2 Wireless charge Apple MRXJ2</h3>
+    <p>Giá : 5.590.000 VNĐ</p>
+    </div>
+    </div>
+
+    <div class="sanphammoi">
+        <p>LOA BLUETOOTH</p>
+        <section class="cacsanpham">
+            <div class="sanpham">
+                <a href="loa1.html">
+                    <div align="center">
+                        <img src="image/sanpham/LOA1.jpg" alt="">
+                </a>
+            </div>
+            <h3>Loa Bluetooth MozardX BM01 Đen</h3>
+            <p>Giá : 3.900.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="loa2.html">
+            <div align="center">
+                <img src="image/sanpham/loa2.jpg" alt="">
+        </a>
+    </div>
+    <h3>Loa Bluetooth Sony Extra Bass SRS-XB33</h3>
+    <p>Giá : 2.800.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="loa3.html">
+            <div align="center">
+                <img src="image/sanpham/loa3.jpg" alt="">
+        </a>
+    </div>
+    <h3>Loa Bluetooth JBL Pulse 4 Đen</h3>
+    <p>Giá : 4.740.000 VNĐ</p>
+    </div>
+    <div class="sanpham">
+        <a href="loa4.html">
+            <div align="center">
+                <img src="image/sanpham/loa4.jpg""></a>
+                </div>
+                <h3>Loa vi tính Bluetooth Enkor S2880 Đen - 2.1                                                  </h3>
+                <p>Giá : 1.317.000 VNĐ</p>
+            </div>
+    </div>
+    </section>
+
+
+
+
+
+    <!-- PHẦN CAM KẾT CHẤT LƯỢNG -->
+
+
+
+    <section class=" uudiem">
+                <hr>
+                <div class="cacdichvu">
+                    <div class="dichvu">
+                        <div>
+                            <img src="image/sanpham/dichvu1.png" alt="baohanh">
+                        </div>
+                        <h3>Chất lượng hàng đầu</h3>
+                        <p>Cam kết sản phẩm chính hãng 100%.</p>
+                    </div>
+                    <div class="dichvu">
+                        <div>
+                            <img src="image/sanpham/dichvu2.png" alt="baohanh">
+                        </div>
+                        <h3>Giá cả hợp lí</h3>
+                        <p>Giảm giá & khuyến mại với ưu đãi cực lớn.</p>
+                    </div>
+                    <div class="dichvu">
+                        <div>
+                            <img src="image/sanpham/dichvu3.png" alt="baohanh">
+                        </div>
+                        <h3>Giao hàng cực nhanh</h3>
+                        <p>Chúng tôi cam kết giao hàng trong 24h.</p>
+                    </div>
+                    <div class="dichvu">
+                        <div>
+                            <img src="image/sanpham/dichvu4.png" alt="baohanh">
+                        </div>
+                        <h3>Hỗ trợ online 24/7</h3>
+                        <p>Gọi ngay 0982 961 634 để được tư vấn.</p>
+                    </div>
+                </div>
+
+                <!-- về chúng tôi -->
+                <hr>
+                <section class="vechungtoi">
+
+                    <div>
+                        <p><i class="fas fa-info-circle"></i> THÔNG TIN</p>
+                        <span><a href=""> Hướng dẫn mua hàng</a><span>
+                                <span><a href="chinhsachbaohanh.html"> Chính sách bảo hành<span>
+                                            <span><a href=""> Chính sách đổi trả hàng</a></span>
+                                            <span><a href="thongtincuahang.html"> Liên hệ - khiếu nại</a></li></span>
+                    </div>
+
+
+                    <div class="thanhtoan">
+                        <p><i class="fas fa-money-check-alt"></i> HỖ TRỢ THANH TOÁN</p>
+                        <img src="image/tienmat.png" alt="">
+                        <img src="image/atm.png" alt="">
+                        <img src="image/visa.png" alt="">
+                    </div>
+
+                    <!-- <div class="dangkyemail">
+            <p><i class="fas fa-envelope-square"></i>  ĐỂ LẠI MAIL NHẬN NHIỀU ƯU ĐÃI HƠN</p>
+            <input type="email" placeholder="Đăng ký email">
+            <input type="submit" name="dangky" value="ĐĂNG KÝ" placeholder="" id="">
+        </div> -->
+                    <div class="mxh">
+                        <p>MẠNG XÃ HỘI</p>
+                        <a href="https://www.facebook.com/HOANG.PORO.2"><img src="image/fb.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/hoangporo02"><img src="image/instagram.png" alt="">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCy4vHFFxTlxs3BJZhi8SiSg"><img src="image/youtube.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="calendar">
+                        <script language="javascript">
+                            monthnames = new Array("January", "Februrary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+                            var linkcount = 0;
+
+                            function addlink(month, day, href) {
+                                var entry = new Array(3);
+                                entry[0] = month;
+                                entry[1] = day;
+                                entry[2] = href;
+                                this[linkcount++] = entry;
+                            }
+                            Array.prototype.addlink = addlink;
+                            linkdays = new Array();
+                            monthdays = new Array(12);
+                            monthdays[0] = 31;
+                            monthdays[1] = 28;
+                            monthdays[2] = 31;
+                            monthdays[3] = 30;
+                            monthdays[4] = 31;
+                            monthdays[5] = 30;
+                            monthdays[6] = 31;
+                            monthdays[7] = 31;
+                            monthdays[8] = 30;
+                            monthdays[9] = 31;
+                            monthdays[10] = 30;
+                            monthdays[11] = 31;
+                            todayDate = new Date();
+                            thisday = todayDate.getDay();
+                            thismonth = todayDate.getMonth();
+                            thisdate = todayDate.getDate();
+                            thisyear = todayDate.getYear();
+                            thisyear = thisyear % 100;
+                            thisyear = ((thisyear < 50) ? (2000 + thisyear) : (1900 + thisyear));
+                            if (((thisyear % 4 == 0) && !(thisyear % 100 == 0)) || (thisyear % 400 == 0)) monthdays[1]++;
+                            startspaces = thisdate;
+                            while (startspaces > 7) startspaces -= 7;
+                            startspaces = thisday - startspaces + 1;
+                            if (startspaces < 0) startspaces += 7;
+
+                            document.write("<table border='1'>");
+                            document.write("<tr><td colspan=7 class='monthyear'>" + monthnames[thismonth] + " " + thisyear + "</td></tr>");
+                            document.write("<tr class='weektitle'>");
+                            document.write("<td align= center>Sun</td>");
+                            document.write("<td align= center>Mon</td>");
+                            document.write("<td align= center>Tus</td>");
+                            document.write("<td align= center>Wed</td>");
+                            document.write("<td align= center>Thu</td>");
+                            document.write("<td align= center>Fri</td>");
+                            document.write("<td align= center>Sat</td>");
+                            document.write("</tr>");
+                            document.write("<tr>");
+                            for (s = 0; s < startspaces; s++) {
+                                document.write("<td> </td>");
+                            }
+                            count = 1;
+                            while (count <= monthdays[thismonth]) {
+                                for (b = startspaces; b < 7; b++) {
+                                    linktrue = false;
+                                    document.write("<td class='weekday'>");
+                                    for (c = 0; c < linkdays.length; c++) {
+                                        if (linkdays[c] != null) {
+                                            if ((linkdays[c][0] == thismonth + 1) && (linkdays[c][1] == count)) {
+                                                document.write("<a href=\"" + linkdays[c][2] + "\">");
+                                                linktrue = true;
+                                            }
+                                        }
+                                    }
+                                    if (count == thisdate) {
+                                        document.write("<font color='FF0000'><strong>");
+                                    }
+                                    if (count <= monthdays[thismonth]) {
+                                        document.write(count);
+                                    } else {
+                                        document.write(" ");
+                                    }
+                                    if (count == thisdate) {
+                                        document.write("</strong></font>");
+                                    }
+                                    if (linktrue)
+                                        document.write("</a>");
+                                    document.write("</td>");
+                                    count++;
+                                }
+                                document.write("</tr>");
+                                document.write("<tr>");
+                                startspaces = 0;
+                            }
+                            document.write("</table>");
+                        </script>
+                </section>
+
+
+                <!-- Phần cuối trang -->
+                <hr>
+                <footer>
+                    <p>© Bản quyền thuộc <b><i>thegioididong</i> </b> | Design by <i><b
+                                style="color: rgb(139, 22, 22);">Nhóm 1</b></i></p>
+                </footer>
+</body>
+
+</html>
